@@ -1,0 +1,6 @@
+{"id":"u1","outcome":"converted","summary":"Fixture review.","first_impression":{"five_seconds":"A test page.","understood_product":true,"trust_1to5":3,"clarity_1to5":4},
+ "journey":[{"step":1,"url":"/","sentiment":0},{"step":2,"url":"/pricing/","sentiment":1}],
+ "friction":[{"severity":"low","url":"/pricing/","what":"Fixture friction"}],
+ "data_issues":[{"url":"/pricing/","issue":"Fixture issue","evidence":"exact text","confidence":"high"}],
+ "engagement":{"would_pay":"maybe","recommend_0to10":6,"what_brings_me_back":"fixture"},
+ "quotes":["Fixture quote."],"top_fixes":[{"fix":"Fixture fix","impact":"med"}]}

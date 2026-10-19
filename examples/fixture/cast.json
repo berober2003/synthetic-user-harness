@@ -1,0 +1,10 @@
+{
+ "site": "https://example.com",
+ "email_pattern": "you+synth-{id}@example.com",
+ "page_types": [["/docs", "Docs index", "exact"], ["/docs/", "Docs page"], ["/pricing", "Pricing"]],
+ "personas": {"P1": {"name": "Tiny fixture persona", "who": "Used by scripts/smoke.sh only"}},
+ "users": [
+  {"id": "u1", "persona": "P1", "name": "Fixture One", "device": "desktop", "entry": "https://example.com/"},
+  {"id": "u2", "persona": "P1", "name": "Fixture Two", "device": "mobile", "entry": "https://example.com/docs/"}
+ ]
+}

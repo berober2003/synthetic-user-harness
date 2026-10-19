@@ -1,0 +1,4 @@
+{"event":"start","device":"mobile","origin":"verification"}
+{"event":"goto","step":1,"url":"https://example.com/docs/","perf":{"ttfb":100,"dcl":200,"load":300,"lcp":400,"cls":0,"kb":10,"requests":3,"overflow":false,"height":900}}
+{"event":"goto","step":2,"url":"https://example.com/docs/api/","perf":{"ttfb":100,"dcl":200,"load":300,"lcp":400,"cls":0,"kb":10,"requests":3,"overflow":false,"height":900}}
+{"event":"end","outcome":"abandoned","note":"fixture","origin":"verification"}

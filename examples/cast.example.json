@@ -1,0 +1,69 @@
+{
+ "site": "https://www.example.com",
+ "run": "my-run",
+ "email_pattern": "you+synth-{id}@example.com",
+ "page_types": [
+  ["/menu", "Menu index", "exact"],
+  ["/menu/", "Recipe page"],
+  ["/plans", "Plans and pricing"],
+  ["/how-it-works", "How it works"],
+  ["/gift", "Gift cards"],
+  ["/account", "Account"],
+  ["/login", "Login/signup"],
+  ["/checkout", "Checkout"]
+ ],
+ "personas": {
+  "P1": {
+   "name": "The Busy Parent",
+   "who": "Two working parents, two kids under ten, cooking dinner five nights a week.",
+   "jtbd": "Get dinner on the table in 30 minutes without a grocery run, with food the kids will eat.",
+   "objections": "Too expensive per serving. Too much packaging. Will the kids actually eat this?",
+   "converts_on": "Clear per-serving price, kid-friendly filters, an easy skip-a-week, a first-box discount that doesn't hide the real price."
+  },
+  "P2": {
+   "name": "The Home Cook",
+   "who": "Single or couple, cooks for fun, reads ingredient lists.",
+   "jtbd": "Try new cuisines and techniques without buying a whole bottle of a spice used once.",
+   "objections": "Recipes are too basic. Ingredient quality. Portion sizes for two.",
+   "converts_on": "Recipe depth, sourcing detail, a menu that changes enough week to week, flexible plan sizes."
+  }
+ },
+ "users": [
+  {
+   "id": "p1a", "persona": "P1", "name": "Dana Whitaker",
+   "role": "Nurse manager, works 12-hour shifts", "age": 41, "tech": "medium", "device": "mobile",
+   "entry": "https://www.example.com/",
+   "arrival": "Tapped an Instagram ad on her phone during a break. Wants to know the price before anything else.",
+   "knows_cold": "Grocery prices at her local store; what her kids refuse to eat.",
+   "disposition": "Impatient, skims, leaves if the price is hidden behind a quiz.",
+   "logged_in": false
+  },
+  {
+   "id": "p1b", "persona": "P1", "name": "Marcus Lee",
+   "role": "Accountant, does the family meal planning on Sundays", "age": 38, "tech": "high", "device": "desktop",
+   "entry": "https://www.example.com/plans/",
+   "arrival": "A coworker sent the plans link. He's comparing three meal-kit services in a spreadsheet.",
+   "knows_cold": "Per-serving cost math; the competitors' plan structures.",
+   "disposition": "Methodical, reads the fine print on cancellation and delivery fees.",
+   "logged_in": false
+  },
+  {
+   "id": "p2a", "persona": "P2", "name": "Priya Nair",
+   "role": "Graduate student, cooks with her partner", "age": 27, "tech": "high", "device": "mobile",
+   "entry": "https://www.example.com/menu/",
+   "arrival": "Searched for a specific recipe and landed on this week's menu.",
+   "knows_cold": "South Indian cooking; which spices are hard to find locally.",
+   "disposition": "Curious, will browse many recipes, judges by ingredient detail.",
+   "logged_in": false
+  },
+  {
+   "id": "p2b", "persona": "P2", "name": "Tom Alvarez",
+   "role": "Retired teacher, cooks most nights", "age": 66, "tech": "low-medium", "device": "desktop",
+   "entry": "https://www.example.com/how-it-works/",
+   "arrival": "His daughter suggested it. He wants to understand how delivery and skipping weeks work before signing up.",
+   "knows_cold": "Classic home cooking; portion sizes for two.",
+   "disposition": "Patient but confused by jargon and small text; calls customer service if unsure.",
+   "logged_in": false
+  }
+ ]
+}
